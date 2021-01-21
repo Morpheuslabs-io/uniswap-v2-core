@@ -22,3 +22,19 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+
+The test suite includes testing the following smart contracts
+
+1. UniswapV2ERC20
+
+Test cases include token deployment/transfer/approve
+
+2. UniswapV2Factory
+
+This contract implements methods for creating pair of tokens.
+Test cases include pair creation
+
+3. UniswapV2Pair
+
+This contract implements methods for token pair governance and swap.
+Test cases include mint, getInputPrice, swap, burn and etc
